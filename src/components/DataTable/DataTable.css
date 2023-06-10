@@ -1,0 +1,90 @@
+.table__thead{
+    background: #3c8ddd;
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.taable__table{
+    margin: 0;
+    width: 100%;
+}
+
+.table__body{
+    background: #dbefec;
+    border: 1px solid #636363f0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.filter__main{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 1rem;
+
+}
+.filter__main h2{
+    font-size: 1rem;
+    font-weight: 100;
+    color: teal;
+}
+.filter{
+    
+    border: 2px solid #62616151;
+    width: 15%;
+    box-shadow: 0 10px 20px rgba(104, 104, 104, 0.342);
+
+
+}
+.filter__content{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    align-items: flex-end;
+
+}
+
+.filter__head{
+    border-bottom:1px solid #52525269;
+    padding: 1.5rem;
+    background: #bde7e9;
+}
+.filter__head h4{
+    margin:0;
+}
+.filter__body{
+    padding: 1.5rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid #52525269;
+
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(4, 162, 162);
+    
+  }
+td{
+    padding: 1rem;
+    text-align: left;
+}
+th{
+    padding: 1rem;
+    text-align: left;
+}
+
+.table-striped > td {
+    background-color: #bde7e951 !important;
+  }
